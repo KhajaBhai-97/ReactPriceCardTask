@@ -48,6 +48,7 @@ function PriceCard() {
     <div
       style={{
         display: "flex",
+        flexWrap: "wrap",
         justifyContent: "center",
         alignItems: "center",
         background: "linear-gradient(to right, blue, lightskyblue)",
