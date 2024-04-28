@@ -66,6 +66,7 @@ function PriceCard() {
             border: "1px solid black",
             backgroundColor: "white",
             borderRadius: "10px",
+            textAlign: "center",
           }}
         >
           <h5
@@ -93,6 +94,7 @@ function PriceCard() {
                 color: feature.isTrue ? "black" : "grey",
                 fontWeight: "normal",
                 paddingLeft: "25px",
+                textAlign: "left",
               }}
             >
               {feature.isTrue && <i className="fa-solid fa-check"></i>}
